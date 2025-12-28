@@ -1,0 +1,48 @@
+{
+  "tasks": [
+    {
+      "task_id": "task_001",
+      "task_name": "用户数据同步",
+      "status": "success",
+      "start_time": "2025-06-17 08:00:00",
+      "end_time": "2025-06-17 08:15:30",
+      "duration": 930,
+      "data_count": 1500000,
+      "log_path": "logs/task_001.log",
+      "error_msg": null
+    },
+    {
+      "task_id": "task_002",
+      "task_name": "订单数据清洗",
+      "status": "failed",
+      "start_time": "2025-06-17 08:30:00",
+      "end_time": "2025-06-17 08:45:20",
+      "duration": 920,
+      "data_count": 850000,
+      "log_path": "logs/task_002.log",
+      "error_msg": "NullPointerException at DataProcessor.clean()"
+    },
+    {
+      "task_id": "task_003",
+      "task_name": "销售报表生成",
+      "status": "running",
+      "start_time": "2025-06-17 09:00:00",
+      "end_time": null,
+      "duration": null,
+      "data_count": null,
+      "log_path": "logs/task_003.log",
+      "error_msg": null
+    },
+    {
+      "task_id": "task_004",
+      "task_name": "产品库存校验",
+      "status": "pending",
+      "start_time": null,
+      "end_time": null,
+      "duration": null,
+      "data_count": null,
+      "log_path": "logs/task_004.log",
+      "error_msg": null
+    }
+  ]
+}
